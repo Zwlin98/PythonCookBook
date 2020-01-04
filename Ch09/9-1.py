@@ -1,6 +1,6 @@
 import time
-
 from functools import wraps
+
 
 def timethis(func):
     '''
@@ -18,6 +18,7 @@ def timethis(func):
         return result
 
     return wrapper
+
 
 @timethis
 def countdown(cnt):
