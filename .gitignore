@@ -1,2 +1,4 @@
 venv
 .idea
+/cookbook/
+*/.ipynb_checkpoints/
